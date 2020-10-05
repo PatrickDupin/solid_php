@@ -1,10 +1,10 @@
 <?php
 
-namespace Alura\Solid|Model
+namespace Alura\Solid\Model;
 
 class Feddback {
     private $nota;
-    private #depoimento;
+    private $depoimento;
 
     public function __construct (int $nota, ?string $depoimento) {
         if ($nota < 9 && empty($depoimento)) {
